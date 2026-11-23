@@ -1,0 +1,18 @@
+Candidate Nouns (Classes / Value Objects / Collections):
+    Library (catalog, users, borrowing/rating records, sorting, persistence coordination)   
+    MediaItem (abstract base: Id, Title, ReleaseYear, IsBorrowed, BorrowedBySsn, DueDate, ratings)   
+Concrete Media: 
+    EBook, Movie, Song, VideoGame, AppMedia, Podcast, ImageMedia   
+    User (abstract base: Name, Age, SocialSecurityNumber, Username, PasswordHash)   
+Concrete Users: 
+    Borrower, Employee, Admin   
+    Rating (reviewer SSN, score, optional comment)   
+    ConsoleUi / InputValidator (Presentation) & JsonDataStore / CsvDataStore (Persistence/DataAccess)   
+Candidate Verbs (Methods / Capability Interfaces):
+    Borrow / Return -> Borrow(), ReturnItem(), check availability & due date  
+    Rate -> IRatable (AddRating(...), AverageRating)   Download -> IDownloadable (Download())   
+    View / Display / Preview -> IViewable (View(), Display())   
+    Read -> IReadable (Read())   Watch -> IWatchable (Watch())   
+    Play -> IPlayable (Play())   Complete -> ICompletable (Complete())   
+    Execute -> IExecutable (Execute())   Listen -> IListenable (Listen())   
+    Manage Collection & Users -> AddMedia, RemoveMedia, ListByType, SortMedia, CreateUser, UpdateUser, DeleteUser, Authenticate   
