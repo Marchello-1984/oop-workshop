@@ -1,5 +1,19 @@
 # OOP-WORKSHOP
 
+---
+
+## Table of Contents
+* [Functional Requirements](#functional-requirements)
+  * [Media Types & Attributes](#media-types--attributes)
+  * [Borrowing & Rating System](#borrowing--rating-system)
+  * [User Roles & Permissions](#user-roles--permissions)
+* [Non-Functional Requirements](#non-functional-requirements)
+* [System Architecture & Verb-Noun Analysis](#system-architecture--verb-noun-analysis)
+  * [Candidate Nouns (Domain Entities & Layers)](#candidate-nouns-domain-entities--layers)
+  * [Candidate Verbs (Methods & Capability Interfaces)](#candidate-verbs-methods--capability-interfaces)
+
+---
+
 ## Functional Requirements
 
 ### Media Types & Attributes
