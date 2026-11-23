@@ -1,0 +1,20 @@
+Functional Requirements
+•	Media Types & Attributes:
+o	E-book: title, author, language, number of pages, year of publication, ISBN; actions: view, download, read. 
+o	Movie: title, director, genres, release year, language, duration; actions: watch, download. 
+o	Song: title, composer, singer, genre, file type, duration, language; actions: play, download. 
+o	Video-game: title, genre, publisher, release year, supported platforms; actions: download, play, complete. 
+o	App: title, version, publisher, supported platforms, file size; actions: download, execute. 
+o	Podcast: title, release year, host(s), guest(s), episode number, language; actions: download, listen to episode, complete. 
+o	Image: title, resolution, file format, file size, date taken; actions: download, display. 
+•	Borrowing & Rating: Users can borrow media items. Only users who have borrowed an item may rate it. 
+•	User Roles & Startup: Support Admin, Employee, and Borrower with name, age, and social security number. Prompt for role on startup (authentication is not required initially). 
+•	Role Permissions:
+o	Borrower: list items by type, select/preview details, rate borrowed items, and run media-specific actions. 
+o	Employee: add or remove media items. 
+o	Admin: all Employee rights plus view, create, delete, and update Borrower and Employee personal information. 
+Non-Functional Requirements
+•	Input Validation & Error Handling: Console UI guides users with clear instructions, validates all inputs, and blocks invalid inputs/actions. 
+•	Extensibility & Clean Architecture: Easy to add new media types, user roles, or capabilities without breaking existing code, structured into Presentation, Domain, and Data Access/Persistence layers. 
+•	Clean Builds & Version Control: Code compiles cleanly without warnings and is pushed to GitHub (preferably on a non-main branch). 
+
