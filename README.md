@@ -5,8 +5,9 @@
 ## Table of Contents
 - [Functional Requirements](#functional-requirements)
   - [Media Types & Attributes](#media-types--attributes)
-  - [Borrowing & Rating System](#borrowing--rating-system)
-  - [User Roles & Permissions](#user-roles--permissions)
+  - [Borrowing & Rating](#borrowing--rating)
+  - [User Roles & Startup](#user-roles--startup)
+  - [Role Permissions](#role-permissions)
 - [Non-Functional Requirements](#non-functional-requirements)
 - [Verb-Noun Analysis](#verb-noun-analysis)
   - [Candidate Nouns (Classes / Value Objects / Collections)](#candidate-nouns-classes--value-objects--collections)
